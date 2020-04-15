@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActivityClasses.Main.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/app2">
+
+    <Button
+        android:id="@+id/startTrackingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_rounded"
+        android:onClick="onClickStartTracking"
+        android:text="@string/start_tracking"
+        android:typeface="sans"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/stopTrackingBtn"
+        android:layout_marginBottom="30dp"
+        android:minWidth="285dp"/>
+
+    <Button
+        android:id="@+id/stopTrackingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_rounded"
+        android:backgroundTint="@color/colorPrimaryLightContrast"
+        android:enabled="false"
+        android:onClick="onClickStopTracking"
+        android:text="@string/stop_tracking"
+        android:typeface="sans"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/testPathBtn"
+        android:layout_marginBottom="30dp"
+        android:minWidth="250dp"/>
+
+    <Button
+        android:id="@+id/testPathBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:onClick="onClickReportInfected"
+        android:text="@string/test_paths"
+        android:typeface="sans"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        android:minWidth="325dp"/>
+
+    <Button
+        android:id="@+id/reportInfectedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_rounded"
+        android:onClick="onClickReportInfected"
+        android:text="@string/report_infected"
+        android:typeface="sans"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/testPathBtn"
+        android:minWidth="225dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

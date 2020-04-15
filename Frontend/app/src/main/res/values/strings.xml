@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name" translatable="false">Covid-19 finder</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="path_preference_key" translatable="false">com.anticoronabrigade.frontend.paths</string>
+    <string name="google_maps_key" translatable="false">AIzaSyA_GwvzgpI_1o3IGYWm3tzUj2xkXpJ6Ai8</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="menu_maps">Map</string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_symptoms">Symptoms</string>
+    <string name="communicate">Communicate</string>
+
+    <string name="start_tracking">Start Tracking</string>
+    <string name="save_path">Save path</string>
+    <string name="stop_tracking">Stop Tracking</string>
+
+    <string name="report_infected">I have symptoms</string>
+    <string name="report_not_infected">I don\'t have any symptoms anymore</string>
+
+    <string name="not_logged_in">Not Logged In</string>
+    <string name="title_activity_history">HistoryActivity</string>
+
+    <string name="meetup_location_google_maps">You met here</string>
+    <string name="start_path_location_google_maps">Your path started here</string>
+
+    <string name="path_start_date">Path start date: </string>
+    <string name="path_stop_date">Path stop date: </string>
+
+    <string name="met_with_inf_at">Met at: </string>
+    <string name="meeting_date">Meeting date: </string>
+
+    <string name="loading">Loading…</string>
+    <string name="problem_try_again_restart">A problem occurred. Please try again or restart the application</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+
+    <string name="internet_permission">Internet permission is required</string>
+    <string name="welcome">Welcome!</string>
+    <string name="email_password_incorrect">Email or password incorrect</string>
+    <string name="network_failed">Network failed</string>
+
+    <string name="status_changed">Status changed!</string>
+    <string name="problem_sign_out_restart">Something went wrong. Please sign out and open app again. Thank you!</string>
+    <string name="meet_infected">You have met with a person with symptoms</string>
+    <string name="not_meet_infected">You have not met with a person with symptoms</string>
+    <string name="please_location">Please turn your location on</string>
+    <string name="location_permission">Please give the app permission to access your location</string>
+    <string name="background_permission">Please give the app permission to run in background</string>
+
+    <string name="invalid_email">Your email is not valid</string>
+    <string name="password_missmatch">Your passwords don\'t match</string>
+    <string name="weak_password">Your password is too weak. Try a password of minimum 8 characters with numbers or/and with uppercase and lowercase letters!</string>
+    <string name="register_successful">Registered successfully</string>
+    <string name="email_already_registered">Email or phone number already registered</string>
+
+    <string name="test_paths">Test paths</string>
+
+    <string name="offer_share_via">Share via</string>
+    <string name="choose_sharing_method">Choose one</string>
+    <string name="recommand_app">\nCheck this app out. It\'s a covid-19 tracker.\n\n</string>
+
+    <string name="text_infected_path">It seems you have met a person with symptoms in the last 10 days. You should self-quarantine for 10 days. If you start developing any symptoms, contact your nearest doctor via phone and report it to the app by pressing the \"I have symptoms\" button. It is required that you report it to our application so that other users that will come into contact with you will be notified. If you would like to see the location and date of the meet-up press \"WHERE?\"</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="are_you_sure">Are you sure?</string>
+
+    <string name="title_infected">You have intersected with someone with symptopms!</string>
+    <string name="where_infected">Where?</string>
+
+    <string name="text_tutorial">
+        <b>Start tracking button</b> - pressing the button opens up a window where you can select the maximum period during which the app will track you. Pressing the "OK" button
+        starts recording your location. The app can run in background. Limit the number of other background running apps for a better performance. After pressing it, the button deactivates and
+        the "Stop tracking" button activates. While recording, you can not use the "Test Path" and the "I have symptoms" buttons\n\n
+        <b>Stop tracking button</b> - pressing the button saves the recorded locations on your device for 10 days. You will be able to see your path history in the "History" tab in the
+        left drawer. After pressing it, the button deactivates and the "Start tracking" button activates\n\n
+        <b>Test Path button</b> - pressing this button will verify your paths and tell you if you have met a person with symptoms. If you have met a person with symptoms, the app will
+        provide a map with the meet-up locations highlighted with red markers\n\n
+        <b>I have symptoms</b> - pressing the button will report to the server that you have symptoms. The database saves the paths of people that declared to have symptoms, without
+        any connection to the person that actually pressed the button. After pressing the button it transforms into "I don't have any symptoms anymore" button.\n\n
+        <b>I don\'t have any symptoms anymore</b> - pressing the button will report to the app that you no longer have any symptoms. After pressing the button it transforms
+        into the "I have symptoms" button.\n\n
+        <b>Drawer</b> - Pressing the lines in the top left corner or swiping from the left of the screen to the right opens a
+        drawer that contains Map button, History button, Symptoms button, Tutorial button, Logout button, Share button\n\n
+        <b>Map button</b> - it appears only while you are recording your path. Pressing this button opens a map that contains all the points registered by individuals with symptoms, from the
+        last 5 days. \n\n
+        <b>History button</b> - pressing this button opens a list with all of the locally saved paths. Pressing on one item will open google maps with the start location of that path. The
+        top-right button reveals a map with all of your start points marked\n\n
+        <b>Symptoms button</b> - pressing this button will open up the official World Health Organization website showing symptoms and prevention methods for the virus.\n\n
+        <b>Tutorial button</b> - pressing this button will open up this dialog.\n\n
+        <b>Logout button</b> - pressing this button will log you out. You will need to reconnect to continue using our app.\n\n
+        <b>Share button</b> - pressing this button allows you to share this app with your friends and family via the option you select\n\n
+        <b>Location button inside map</b> - pressing this button re-position the map, with your location in the middle of the screen
+    </string>
+
+    <string name="title_tutorial">Tutorial</string>
+    <string name="title_tutorial_dialog">How to use our app</string>
+
+    <string name="error_unauthorized">Unauthorized request. Please logout and try again!</string>
+
+    <string name="error_location">Location didn\'t work as expected! Please try again!</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="period_title">Select period</string>
+
+    <string-array name="select_hours_array">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>1 hour 30 minutes</item>
+        <item>2 hours</item>
+    </string-array>
+
+    <string name="start_path_map">Start: </string>
+    <string name="stop_path_map">Stop: </string>
+
+    <string name="text_or">OR</string>
+    <string name="phone_number">Phone number with country code</string>
+
+    <string name="code">Code from email</string>
+
+    <string name="code_error">Invalid code. Try again or press on "Resend" button</string>
+
+    <string name="resend_ok">Email sent</string>
+    <string name="resend_error">There was an error when trying to send the email. Please try again!</string>
+    <string name="resend">Resend</string>
+
+    <string name="currently_tracking">Currently tracking</string>
+    <string name="click_to_open_app">Click to open app</string>
+
+    <string name="start_stop_tracking">Start/Stop tracking</string>
+
+    <string name="tracking_stopping">Tracking is stopping…</string>
+
+    <string name="widget_permissions_missing">The app does not have the required permissions. Please open the app and press the start tracking button</string>
+
+    <string name="email_error">Email could not be sent</string>
+    <string name="sms_error">Sms could not be sent</string>
+
+    <string name="email_with_phone">Email/phone no. with country code</string>
+
+    <string name="email_not_valid">Email or phone number not valid</string>
+    <string name="eg_phone_no">Example: +40XXXXXXXXX</string>
+    <string name="eg_login_phone_no">Phone example: +40XXXXXXXXX</string>
+    <string name="sms_ok">Sms sent</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="change_password">Change password</string>
+    <string name="email_phone_not_valid">Email/Phone number not found. Try registering first!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

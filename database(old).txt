@@ -1,0 +1,31 @@
+CREATE TABLE user_api (
+	id bigserial PRIMARY KEY NOT NULL,
+	email varchar(75) NOT NULL,
+	pass varchar(75) NOT NULL,
+	isinfected bool NOT NULL
+);
+
+CREATE TABLE path (
+	id bigserial PRIMARY KEY NOT NULL,
+	date bigint NOT NULL,
+	start_latitude double precision NOT NULL,
+	start_longitude double precision NOT NULL
+);
+
+CREATE TABLE point (
+	id bigserial PRIMARY KEY NOT NULL,
+	latitude double precision NOT NULL,
+	longitude double precision NOT NULL
+);
+
+CREATE TABLE path_point (
+	id bigserial PRIMARY KEY NOT NULL,
+	path_id bigint NOT NULL,
+	point_id bigint NOT NULL
+);
+
+CREATE TABLE code (
+	id bigserial PRIMARY KEY NOT NULL,
+	code int NOT NULL,
+	date bigint NOT NULL
+);

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:iconTint="@color/black"
+            android:title="@string/menu_maps"
+            android:typeface="sans"
+            android:textColor="@color/colorAccent"/>
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@android:drawable/ic_input_get"
+            android:iconTint="@color/black"
+            android:title="@string/menu_history"
+            android:typeface="sans"
+            android:textColor="@color/colorAccent"/>
+        <item
+            android:id="@+id/symptoms"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_symptoms"
+            android:typeface="sans"
+            android:textColor="@color/colorAccent"/>
+        <item
+            android:id="@+id/tutorial"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:iconTint="@color/black"
+            android:title="@string/title_tutorial"
+            android:typeface="sans"
+            android:textColor="@color/colorAccent"/>
+        <item
+            android:id="@+id/logout"
+            android:visible="false"
+            android:icon="@drawable/icon_logout"
+            android:title="@string/menu_logout"
+            android:typeface="sans"
+            android:textColor="@color/colorAccent" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>

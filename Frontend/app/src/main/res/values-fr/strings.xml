@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 finder</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_history">Historique</string>
+    <string name="menu_maps">CarteCovid19</string>
+    <string name="menu_logout">Deconnexion</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_symptoms">Symptômes</string>
+    <string name="communicate">Communication</string>
+    <string name="start_tracking">Démarrer le suivi</string>
+    <string name="stop_tracking">Arrêter le suivi</string>
+    <string name="report_infected">Je suis peut-être infecté(e)</string>
+    <string name="report_not_infected">Je ne suis plus infecté(e)</string>
+    <string name="not_logged_in">Pas connecté</string>
+    <string name="title_activity_history">Historique de l’activité</string>
+    <string name="meetup_location_google_maps">Lieu de rencontre</string>
+    <string name="start_path_location_google_maps">Votre chemin a commencé ici</string>
+    <string name="path_start_date">Date de départ: </string>
+    <string name="path_stop_date">Date de fin: </string>
+    <string name="met_with_inf_at">Rencontré à: </string>
+    <string name="meeting_date">Date de l’événement: </string>
+    <string name="loading">Chargement…</string>
+    <string name="problem_try_again_restart">Une problème est survenu. Veuillez réessayer ou redémarrer l’application</string>
+    <string name="login">S’identifier</string>
+    <string name="register">S’inscrire</string>
+    <string name="ok">OK</string>
+    <string name="exit">Sortie</string>
+    <string name="internet_permission">Une autorisation Internet est requise</string>
+    <string name="welcome">Bienvenue!</string>
+    <string name="email_password_incorrect">Email ou mot de passe incorrect</string>
+    <string name="network_failed">Échec du réseau</string>
+    <string name="status_changed">Changement de status!</string>
+    <string name="problem_sign_out_restart">Une problème est survenu. Veuillez réessayer ou redémarrer l’application. Merci!</string>
+    <string name="meet_infected">Vous avez rencontré une personne infectée</string>
+    <string name="not_meet_infected">Vous n’avez pas rencontré de personne infectée</string>
+    <string name="please_location">Veuillez activer la géolocalisation</string>
+    <string name="location_permission">Veuillez autoriser l’application à accéder à  votre position</string>
+    <string name="background_permission">Veuillez autoriser l’application à s’exécuter en arrière plan</string>
+    <string name="invalid_email">Votre email n’est pas valide</string>
+    <string name="password_missmatch">Vos mots de passe doivent être identiques</string>
+    <string name="weak_password">Votre mot de passe est trop faible. Essayez un mot de passe d’au moins 8 caractères ou /et des majuscules et minuscules!</string>
+    <string name="register_successful">Enregistré avec succés</string>
+    <string name="email_already_registered">Courriel déjà enregistré</string>
+    <string name="test_paths">Verification</string>
+    <string name="offer_share_via">Partager  via</string>
+    <string name="choose_sharing_method">Choissez-en une</string>
+    <string name="recommand_app">\nDécouvrez cette nouvelle application.C’est un Covid 19 tracker.\n\n</string>
+    <string name="text_infected_path">Il semblerait que vous ayez rencontré une personne infectée au cours de ces 10 derniers jours. Si vous commencez à développer des symptômes, contactez votre médecin traitant par téléphone et signalez à l’application que vous pourriez être infecté(e) en cliquant sur / « Je suis peut-être infecté(e)« /. Vous devez le signaler à l’application afin que les autres utilisateurs qui entreront en contact avec vous en soient informés.Si vous souhaitez voir le lieu et la date de la rencontre, cliquez sur /« OÙ »/.</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+    <string name="are_you_sure">ÊTES VOUS SÛR(E) DE VOULOIR CONTINUER?</string>
+    <string name="title_infected">Vous avez croisé une personne infectée!</string>
+    <string name="where_infected">Où?</string>
+    <string name="text_tutorial">
+        <b>Button « Démarrer le suivi »</b> : cliquez sur le bouton pour enregistrer votre GPS. Vous pouvez continuer à utiliser votre téléphone si absolument nécessaire, l’application peut fonctionner en arrière-plan, mais ne fermez pas l’application.Après avoir choisi, le bouton se changera en « Arrêter le suivi » \n\n
+        <b>Le bouton « Arrêter le suivi »</b> - cliquez sur le bouton pour sauvegarder les positions enregistrées sur votre appareil pendant 10 jours.
+        Si vous n’êtes pas signalé comme infecté, vous avez la possibilité de voir l’historique de votre activité dans le Menu, l’onglet « historique ». En cliquant dessus,le bouton se changera en « Démarrer le suivi »\n\n
+        <b>Le bouton « Vérification de l’activité »</b> - appuyez sur ce bouton pour envoyer votre activité au serveur pour vérification et mise à jour. Notez que votre activité ne sera pas enregistrée dans notre base de données ou notre serveur. Après vérification, l’application vous annoncera si vous avez croisé une personne infectée. Si vous avez rencontré une personne infectée, l’application vous fournira une liste avec toutes les dates et lieux où ces croissements ont été possibles. Vous pouvez cliquer sur l’emplacement fourni pour ouvrir google maps\n\n
+        <b>Le boutton « Je suis peut-être infecté(e) »</b> - en cliquant sur le bouton signalera au serveur que vous êtes infecté(e) et de manière totalement anonyme envoyez votre activité à notre base où elle sera conservée pendant 10 jours . Aucune information supplémentaire sur l’utilisateur ne sera démandée, uniquement la date et le lieu de son activité seront nécéssaires. En cliquant sur le bouton, il se changera en « Je ne suis plus infecté(e) ».\n\n
+        <b>Le bouton « Je ne suis plus infecté(e) »</b> - en cliquant sur le bouton signalera au serveur que vous n’êtes plus infecté(e). En re-cliquant sur le bouton, il se changera en « Je suis peut-être infecté(e) ».\n\n
+        <b>Menu</b> - en cliquant sur le Menu, dans la partie gauche de l’écran, vous retrouverez le dossier  l’Historique de l’activité, le dossier Symptômes, le dossier Tutoriel, le dossier Déconnexion et le dossier Partager\n\n
+        <b>Le bouton «  l’Historique »</b> - en cliquant sur l’Historique de l’activité vous découvrirez une liste avec toute votre activité et la possibilité d’ouvrir google maps avec l’emplacement de votre départ.\n\n
+        <b>Le bouton » Symptômes »</b> - en cliquant sur ce bouton s’ouvrira le site officiel de l’Organisation Mondiale de la Santé, où toutes les informations mises à jour liées au Covid19 seront publiées quotidiennement .\n\n
+        <b>Le bouton « Tutoriel »</b> - en cliquant sur ce bouton, vous decouvrirez les informations d’utilisation de l’application.\n\n
+        <b>Le bouton «  Déconnexion »</b> - cliquez sur ce bouton pour vous déconnecter.Vous devrez vous reconnecter pour continuer à utiliser l’application.\n\n
+        <b>Le bouton « Partager »</b> - en cliquant sur ce bouton, vous pouvez partager l’application avec vos amis et votre famille via l’option que vous sélectionnez\n\n
+    </string>
+    <string name="title_tutorial">Tutoriel</string>
+    <string name="title_tutorial_dialog">Comment utiliser l’application</string>
+    <string name="google_maps_key">AIzaSyA_GwvzgpI_1o3IGYWm3tzUj2xkXpJ6Ai8</string>
+    <string name="error_unauthorized">Demande non autorisée.Veuillez vous déconnecter et réessayer!</string>
+    <string name="error_location">L’emplacement n’a pas fonctionné comme prévu!Veuillez réessayer!</string>
+
+    <!--To be translated-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="period_title">Select period</string>
+    <string-array name="select_hours_array">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>1 hour 30 minutes</item>
+        <item>2 hours</item>
+    </string-array>
+    <string name="start_path_map">Start: </string>
+    <string name="stop_path_map">Stop: </string>
+    <string name="text_or">OR</string>
+    <string name="phone_number">Phone number</string>
+    <string name="code">Code from sms or email</string>
+    <string name="code_error">Invalid code</string>
+    <string name="resend_ok">Email sent</string>
+    <string name="resend_error">There was an error when trying to send the email. Please try again!</string>
+    <string name="resend">Resend</string>
+    <string name="save_path">Save path</string>
+
+</resources>

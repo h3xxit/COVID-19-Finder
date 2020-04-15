@@ -1,0 +1,25 @@
+CREATE TABLE path (
+	id bigserial PRIMARY KEY NOT NULL,
+	date bigint NOT NULL,
+	start_latitude double precision NOT NULL,
+	start_longitude double precision NOT NULL,
+	code_for_transfer int
+);
+
+CREATE TABLE point (
+	id bigserial PRIMARY KEY NOT NULL,
+	latitude double precision NOT NULL,
+	longitude double precision NOT NULL
+);
+
+CREATE TABLE path_point (
+	id bigserial PRIMARY KEY NOT NULL,
+	path_id bigint NOT NULL,
+	point_id bigint NOT NULL
+);
+
+CREATE TABLE infected(
+	id bigserial PRIMARY KEY NOT NULL,
+	is_infected NOT NULL,
+	code_for_transfer NOT NULL
+);

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 finder</string>
+
+    <string name="menu_home">Acasa</string>
+    <string name="menu_history">Istoric</string>
+    <string name="menu_maps">Harta</string>
+    <string name="menu_logout">Deconectare</string>
+    <string name="menu_share">Distribuie</string>
+    <string name="menu_symptoms">Simptome</string>
+    <string name="communicate">Comunicare</string>
+
+    <string name="start_tracking">Porniti inregistrare drum</string>
+    <string name="save_path">Salvati drumul</string>
+    <string name="stop_tracking">Finalizati inregistrare drum</string>
+
+    <string name="report_infected">Am simptome</string>
+    <string name="report_not_infected">Nu mai am nici un simptom</string>
+
+    <string name="not_logged_in">Neconectat</string>
+    <string name="title_activity_history">Istoric</string>
+
+    <string name="meetup_location_google_maps">V-ati intalnit aici</string>
+    <string name="start_path_location_google_maps">Drumul dumneavoastra a inceput aici</string>
+
+    <string name="path_start_date">Data start drum: </string>
+    <string name="path_stop_date">Data stop drum: </string>
+
+    <string name="met_with_inf_at">V-ati intalnit in punctul: </string>
+    <string name="meeting_date">V-ati intalnit la data: </string>
+
+    <string name="loading">Incarcare..</string>
+    <string name="problem_try_again_restart">A aparut o problema. Va rugam, incercati din nou sau resetati aplicatia.</string>
+
+    <string name="login">Conectare</string>
+    <string name="register">Inregistrare</string>
+    <string name="ok">Ok</string>
+    <string name="back">Inapoi</string>
+    <string name="exit">Iesire</string>
+
+
+    <string name="internet_permission">Este necesara permisiunea la internet</string>
+    <string name="welcome">Bine ati venit!</string>
+    <string name="email_password_incorrect">Email sau parola gresite</string>
+    <string name="network_failed">Eroare de retea</string>
+
+    <string name="status_changed">Stare schimbata!</string>
+    <string name="problem_sign_out_restart">Ceva nu a functionat. Va rugam sa va deconectati si sa porniti aplicatia din nou. Multumim!</string>
+    <string name="meet_infected">V-ati intalnit cu o persoana cu simptome!</string>
+    <string name="not_meet_infected">Nu v-ati inalnit cu o persoana cu simptome</string>
+    <string name="please_location">Va rugam sa va porniti locatia</string>
+    <string name="location_permission">Va rugam sa acordati permisiune aplicatiei pentru a va accesa locatia</string>
+    <string name="background_permission">Va rugam sa acordati permisiune aplicatiei de a rula fundal</string>
+
+    <string name="invalid_email">Adresa de email este invalida</string>
+    <string name="password_missmatch">Parolele nu corespund</string>
+    <string name="weak_password">Parola dumneavoastra este prea slaba. Incercati o parola cu minim 8 caractere ce contine cel putin o cifra, caractere mari si mici sau un caracter special(ex: @)!</string>
+    <string name="register_successful">Inregistrat cu succes</string>
+    <string name="email_already_registered">Email sau numar de telefon deja inregistrat</string>
+
+    <string name="test_paths">Testati drumurile dumneavoastra</string>
+
+    <string name="offer_share_via">Distribuiti prin</string>
+    <string name="choose_sharing_method">Alegeti una dintre</string>
+    <string name="recommand_app">\nIncercati aceasta aplicatie gratuita, pentru prevenirea infectiei cu virusul covid-19.\n\n</string>
+
+    <string name="text_infected_path">Se pare ca v-ati intalnit cu o persoana cu simptome in ultimele 10 zile. Daca dezvoltati vreun simptom contactati doctorul de familie prin telefon si raportati aplicatiei faptul ca s-ar putea sa aveti simptome prin apasarea butonului "Am simptome". Este necesar sa raportati aplicatiei acest lucru pentru ca si alti utilizatori ce au fost in contact cu dumneavoastra sa fie anuntati. Daca vreti sa vedeti unde si cand ati intalnit o persoana cu simptome apasati pe butonul "UNDE?"</string>
+
+    <string name="yes">DA</string>
+    <string name="no">NU</string>
+    <string name="are_you_sure">Sunteti sigur?</string>
+
+    <string name="title_infected">V-ati intalnit cu o persoana cu simptome!</string>
+    <string name="where_infected">UNDE?</string>
+
+    <string name="text_tutorial">
+        <b>Porniti inregistrare drum</b> - apasarea butonului deschide o fereastra unde puteti selecta perioada maxima in care aplicatia sa inregistreze locatia dumneavoastra. Apasarea pe butonul
+        "ok" porneste inregistrarea drumului. Aplicatia ruleaza si in fundal. Limitati numarul altor aplicatii deschise in fundal pentru o
+        mai buna functionare. Dupa apasare butonul se dezactiveaza si se activeaza butonul Finalizati inregistrare drum. In timpul inregistrarii drumului nu puteti folosi butoanele
+        "Testati drumurile dumneavoastra" si "Am simptome". Dupa ce terminati traseul apasati pe butonul de "Finalizati inregistrare drum". Acest buton devine "Salveaza traseul"
+        in cazul in care ati depasit timpul selectat in fereastra.\n\n
+        <b>Finalizati inregistrare drum</b> - apasarea butonului salveaza drumurile inregistrate in memoria telefonului pe o perioada de 10 zile. Aceasta face ca dumneavoastra sa puteti vedea in
+        "Istoric" drumurile parcurse in ultimele 10 zile. Dupa apasare butonul se dezactiveaza si se activeaza butonul "Porniti inregistrare drum"\n\n
+        <b>Testati drumurile dumneavoastra</b> - apasarea acestui buton verifica traseele dumneavoastra si va va spune daca v-ati intalnit cu o persoana cu simptome. Daca v-ati intalnit cu o persoana
+        cu simptome aplicatia va afisa o harta pe care sunt semnalate cu marcare rosii punctele de intalnire cu persoanele care au declarat ca au simptome\n\n
+        <b>Am simptome</b> - apasarea butonului va raporta bazei de date faptul ca declarati ca aveti simptome. In baza de date sunt salvate traseele parcurse de persoane care
+        au declarat ca au simptome, fara a se face legatura cu utilizatorii care au apasat butonul "Am simptome". Dupa apasare, butonul va deveni negru, cu textul
+        "Nu mai am nici un simptom".\n\n
+        <b>Nu mai am nici un simptom</b> - apasarea butonului va raporta aplicatiei faptul ca nu mai aveti nici un simptom. Dupa apasare, butonul va redeveni albastru, cu textul
+        "Am simptome".\n\n
+        <b>Meniu</b> - apasarea celor trei linii din coltul stanga-sus sau o glisare din stanga spre dreapta ecranului va deschide meniul
+        care contine butoanele de Harta, Istoric, Simptome, Tutorial, Deconectare si Distribuire\n\n
+        <b>Buton harta</b> - butonul apare doar daca ati inceput inregistrarea drumului. Apasarea butonului deschide o harta cu toate punctele inregistrate de la oameni care au declarat
+        ca au simptome, din ultimele 5 zile\n\n
+        <b>Buton istoric</b> - apasarea butonului deschide o lista cu toate drumurile salvate in memoria telefonului. Apasarea oricarui drum va deschide
+        harta, cu locatia punctului de start al drumului selectat. Butonul din dreapta sus va deschide harta pe care sunt inscrise cu marcare rosii toate punctele de plecate\n\n
+        <b>Buton simptome</b> - apasarea butonului va deschide site-ul oficial al Organizatiei Mondiale a Sanatatii, aratand simptomele bolii si metode de prevenire a acesteia.\n\n
+        <b>Buton tutorial</b> - apasarea butonului va deschide instructiunile de utilizare ale aplicatiei.\n\n
+        <b>Buton deconectare</b> - apasarea butonului va va deconecta. Va trebui sa va reconectati pentru a putea folosi aplicati.\n\n
+        <b>Buton distribuire</b> - apasarea butonului va ofera posibilitatea de a distribui aplicatia pe diferite platforme\n\n
+        <b>Buton centrare locatie in interiorul hartii</b> - apasarea acestui buton va repozitiona harta astfel incat locatia dumneavoastra sa se afle in mijlocul ecranului
+    </string>
+
+    <string name="title_tutorial">Tutorial</string>
+    <string name="title_tutorial_dialog">Cum sa folostiti aceasta aplicatie?</string>
+
+    <string name="error_unauthorized">Incercare neautorizata! Deconectati-va si incearcati din nou!</string>
+
+    <string name="error_location">Locatia nu a functionat in mod corect. Reincercati</string>
+
+    <string name="email">Email</string>
+    <string name="password">Parola</string>
+    <string name="confirm_password">Confirmati parola</string>
+
+    <string name="cancel_button">Anulati</string>
+    <string name="period_title">Selectati perioada</string>
+
+    <string-array name="select_hours_array">
+        <item>30 de minute</item>
+        <item>1 ora</item>
+        <item>1 ora si 30 de minute</item>
+        <item>2 ore</item>
+    </string-array>
+
+    <string name="start_path_map">Inceput: </string>
+    <string name="stop_path_map">Sfarsit: </string>
+
+    <string name="text_or">SAU</string>
+    <string name="phone_number">Numar de telefon si codul tarii</string>
+
+    <string name="code">Cod primit la adresa de email</string>
+
+    <string name="code_error">Cod invalid! Incercati sa rescrieti codul sau apasati pe retrimite email.</string>
+
+    <string name="resend_ok">Email trimis</string>
+    <string name="resend_error">A aparut o eroare. Va rugam reincercati!</string>
+    <string name="resend">Retrimite</string>
+
+    <string name="currently_tracking">Inregistreaza in acest moment</string>
+    <string name="click_to_open_app">Apasati pentru a deschide aplicatia</string>
+
+    <string name="start_stop_tracking">Porniti/Opriti inregistrarea</string>
+
+    <string name="tracking_stopping">Inregistrarea se opreste…</string>
+
+    <string name="widget_permissions_missing">Aplicatia nu are permisiunile necesare. Va rugam sa porniti aplicatia si sa acordati permisiunile necesare</string>
+
+    <string name="email_error">Email-ul nu a putut fi trimis</string>
+    <string name="sms_error">Mesajul sms nu a putut fi trimis</string>
+
+    <string name="email_with_phone">Email/nr. de telefon si codul tarii</string>
+
+    <string name="email_not_valid">Email sau numar de telefon invalid</string>
+    <string name="eg_phone_no">Exemplu: +40XXXXXXXXX</string>
+    <string name="eg_login_phone_no">Exemplu telefon: +40XXXXXXXXX</string>
+    <string name="sms_ok">Sms trimis</string>
+    <string name="forgot_password">Ai uitat parola?</string>
+    <string name="change_password">Schimba parola</string>
+    <string name="email_phone_not_valid">Email/Numar de telefon negasit. Incerati sa va intregistrati prima data!</string>
+
+</resources>

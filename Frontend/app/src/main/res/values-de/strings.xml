@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 finder</string>
+
+
+    <string name="menu_home">Startbildschirn</string>
+    <string name="menu_history">Verlauf</string>
+    <string name="menu_maps">Karte</string>
+    <string name="menu_logout">Abmelden</string>
+    <string name="menu_share">Teilen</string>
+    <string name="menu_symptoms">Symptome</string>
+    <string name="communicate">Kommunizieren</string>
+
+    <string name="start_tracking">Starten Sie die Verfolgung</string>
+    <string name="save_path">Route speichern</string>
+    <string name="stop_tracking">Beenden Sie die Verfolgung</string>
+
+    <string name="report_infected">Ich könnte infiziert sein</string>
+    <string name="report_not_infected">Ich bin nicht mehr infiziert</string>
+
+    <string name="not_logged_in">Nicht angemeldet</string>
+    <string name="title_activity_history">Verlaufsaktivität</string>
+
+    <string name="meetup_location_google_maps">Sie haben sich hier getroffen</string>
+    <string name="start_path_location_google_maps">Ihre Route begann hier</string>
+
+    <string name="path_start_date">Ihre Route begann am:</string>
+    <string name="path_stop_date">Ihre Route endete am: </string>
+
+    <string name="met_with_inf_at">Getroffen auf: </string>
+    <string name="meeting_date">Getroffen am: </string>
+
+    <string name="loading">Laden…</string>
+    <string name="problem_try_again_restart">Ein Problem ist aufgetreten. Bitte versuchen Sie es erneut oder starten Sie das App noch einmal</string>
+
+    <string name="login">Anmelden</string>
+    <string name="register">Konto erstellen</string>
+    <string name="ok">Okay</string>
+    <string name="exit">App schließen</string>
+
+    <string name="internet_permission">Internetzugang ist benötigt</string>
+    <string name="welcome">Willkommen!</string>
+    <string name="email_password_incorrect">Falsches Passwort oder Email</string>
+    <string name="network_failed">Netzwerkfehler</string>
+
+    <string name="status_changed">Status geändert!</string>
+    <string name="problem_sign_out_restart">Etwas ist schief gelaufen. Bitte abmelden und App erneut öffnen. Vielen Dank!</string>
+    <string name="meet_infected">Sie haben sich mit einer infizierten Person getroffen</string>
+    <string name="not_meet_infected">Sie haben sich nicht mit einer infizierten Person getroffen</string>
+    <string name="please_location">Bitte schalten Sie Ihren Standort ein</string>
+    <string name="location_permission">Bitte geben Sie der App die Erlaubnis Ihern Standort zu verwenden</string>
+    <string name="background_permission">Bitte geben Sie der App die Erlaubnis im Hintergrund au laufen</string>
+
+    <string name="invalid_email">Ihr Email ist ungültig</string>
+    <string name="password_missmatch">Ihre Passwörter stimmen nicht</string>
+    <string name="weak_password">Ihr Passwort ist zu schwach. Versuchen Sie ein Passwort mit mindestens 8 Zeichen mit Zahlen oder / und Groß- und Kleinbuchstaben!</string>
+    <string name="register_successful">Konto Erstellen erfolgreich</string>
+    <string name="email_already_registered">Email schon registriert</string>
+
+    <string name="test_paths">Teste deine Routen</string>
+
+    <string name="offer_share_via">Teile mit</string>
+    <string name="choose_sharing_method">Wähle ein</string>
+    <string name="recommand_app">\nVersuche dieses App aus. Es ist ein Covid-19-Tracker.\n\n</string>
+
+    <string name="text_infected_path">Es scheint, dass Sie in den letzten 10 Tagen eine infizierte Person getroffen haben. Sie sollten sich 10 Tage lang unter Quarantäne stellen. Wenn Sie Symptome entwickeln, wenden Sie sich telefonisch an Ihren nächsten Arzt und melden Sie der App, dass Sie möglicherweise infiziert sind, indem Sie auf die Schaltfläche "Ich könnte infiziert sein" klicken. Es ist erforderlich, dass Sie dies unserer Anwendung melden, damit andere Benutzer, die mit Ihnen in Kontakt kommen, benachrichtigt werden. Wenn Sie den Ort und das Datum des Meetups sehen möchten, drücken Sie\"Wo?\"</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="are_you_sure">Bist du sicher?</string>
+
+    <string name="title_infected">Sie haben sich mit jemandem ,der infiziert ist, getroffen!</string>
+    <string name="where_infected">Wo?</string>
+
+    <string name="text_tutorial"> <b>Starte die Verfolgung</b> - Durch Drücken der Taste wird dein Standort gespeichert werden. Sie können Ihr Handy weiterhin verwenden, das App kann im Hintergrund laufen, aber schließen Sie das App nicht. Nach dem Drücken verwandelt es sich in
+"Beende die Verfolgung" button\n\n
+        <b>Beende die Verfolgung</b> - Durch Drücken der Taste werden die aufgezeichneten Speicherorte auf Ihrem Gerät 10 Tage lang gespeichert.
+Wenn Sie nicht als infiziert gekennzeichnet sind, können Sie Ihere Routen in "Verlauf" tab links sehen. Nach dem Drücken verwandelt es sich in "Starte die Verfolgung" button\n\n
+        <b>Test Path button</b> - Durch Drücken dieser Taste werden Ihre Routen zur Überprüfung an den Server gesendet. Beachten Sie, dass Ihre Routen
+NICHT in unserer Datenbank oder auf unserem Server gespeichert weden. Nach der Überprüfung teilt Ihnen das App mit, ob Sie einen infizierten Person getroffen haben
+. Wenn Sie eine infizierte Person getroffen haben, bietet das App eine Liste mit allen Daten und Orten wo Sie mit einer infizierten Person in Kontakt gekommen sind. Sie können auf den angegebenen Ort klicken, um Google Maps zu öffnen\n\n
+        <b>I might be infected button</b> - Durch Drücken der Taste wird dem Server gemeldet, dass Sie infiziert sind. Anonym
+senden Sie Ihre Routen an unsere Datenbank, wo sie 10 Tage lang aufbewahrt werden. Keine Informationen über den Benutzer, der die Routen gesendet hat
+werden existieren, wir brauchen nur den Ort und das Datum. Nach dem Drücken der Taste verwandelt es sich in "Ich bin nicht mehr infiziert" Taste.\n\n
+        <b>I am not infected anymore</b> - Durch Drücken der Taste wird dem Server gemeldet, dass Sie nicht mehr infiziert sind. Nach das
+Drücken der Taste wird es sich in "Ich könnte infiziert sein" Taste verwandelen.\n\n
+        <b>Drawer</b> - Durch Drücken der Zeilen in der oberen linken Ecke oder schieben Sie Ihren Finger links nach rechts ,werden die Verauf, Symptome, Tutorial, Abmelden, Teilen Tasten erscheinen\n\n
+        <b>History button</b> - Durch Drücken dieser Taste wird eine Liste mit allen lokal gespeicherte Routen geöffnet.\n\n
+        <b>Symptoms button</b> -Durch Drücken dieser Taste wird der offizielle Website der Weltgesundheitsorganisation geöffnet, auf dem Symptome und Präventionsmethoden für das Virus angezeigt werden..\n\n
+        <b>Tutorial button</b> - Durch Drücken dieser Taste wird dieses Dialog geöffnet\n\n
+        <b>Logout button</b> - Durch Drücken dieser Taste werden Sie abgemeldet. Sie müssen die Verbindung erneut herstellen, um unsere App weiterhin nutzen zu können.\n\n
+        <b>Share button</b> - Durch Drücken dieser Taste können Sie diese App über die von Ihnen ausgewählte Option mit Ihren Freunden und Ihrer Familie teilen\n\n</string>
+
+    <string name="title_tutorial">Tutorial</string>
+    <string name="title_tutorial_dialog">Wie nutzt man das App?</string>
+
+    <string name="error_unauthorized">Unautorisierte Anfrage. Bitte abmelden und noch eimanl versuchen!</string>
+
+    <string name="error_location">Das Standort ist nicht wie erwartet funktioniert! Bitte noch einmal versuchen!</string>
+
+    <string name="email">Email</string>
+    <string name="password">Passwort</string>
+    <string name="confirm_password">Bestätige das Passwort</string>
+
+    <!--To be translated && to add map-->
+    <string name="cancel_button">Cancel</string>
+    <string name="period_title">Select period</string>
+
+    <string-array name="select_hours_array">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>1 hour 30 minutes</item>
+        <item>2 hours</item>
+    </string-array>
+
+    <string name="start_path_map">Start: </string>
+    <string name="stop_path_map">Stop: </string>
+
+    <string name="text_or">OR</string>
+    <string name="phone_number">Phone number</string>
+
+    <string name="code">Code from sms or email</string>
+
+    <string name="code_error">Invalid code</string>
+
+    <string name="resend_ok">Email sent</string>
+    <string name="resend_error">There was an error when trying to send the email. Please try again!</string>
+    <string name="resend">Resend</string>
+
+</resources>
