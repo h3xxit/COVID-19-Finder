@@ -12,3 +12,6 @@ The purpose of this app is to prevent COVID-19 infection, protecting us and peop
 - this app can register your path in the background while you use the phone
 - this app is easy to use, so it can be used regardless of age
 - this app does NOT monitor you 24 hours a day. It starts registering your path when "Start tracking" button is pressed
+
+# App download link
+https://drive.google.com/open?id=1zWMvu9BsT1H-Z4D9f9gdSVn-W1eEbI5z
