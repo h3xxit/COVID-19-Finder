@@ -15,3 +15,4 @@ The purpose of this app is to prevent COVID-19 infection, protecting us and peop
 
 # App download link
 https://drive.google.com/open?id=1zWMvu9BsT1H-Z4D9f9gdSVn-W1eEbI5z
+We are not responsible if your data is lost while using the app. By downloading the app you assume full responsibility for any data leak and acknowledge the fact that your information might be leaked.
